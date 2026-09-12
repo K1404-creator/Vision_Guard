@@ -1,0 +1,20 @@
+2026-09-12 11:46:20,640 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,641 | INFO     | src.analytics_module.logger | Logged face_recognized: alice (0.90)
+2026-09-12 11:46:20,641 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,642 | INFO     | src.analytics_module.logger | Logged face_recognized: alice (0.90)
+2026-09-12 11:46:20,642 | INFO     | src.analytics_module.logger | Logged face_recognized: bob (0.80)
+2026-09-12 11:46:20,643 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,643 | INFO     | src.analytics_module.logger | Logged face_recognized: alice (0.90)
+2026-09-12 11:46:20,644 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,645 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,658 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,659 | WARNING  | src.face_module.enroll | Handled application error in enroll_from_image: Expected exactly one face in fake_path.jpg, found 2
+2026-09-12 11:46:20,660 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,660 | WARNING  | src.face_module.enroll | Handled application error in enroll_from_image: No face detected in fake_path.jpg
+2026-09-12 11:46:20,661 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,669 | INFO     | src.face_module.enroll | Enrolled 'alice' from fake_path.jpg
+2026-09-12 11:46:20,669 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,670 | INFO     | src.face_module.recognize | Loaded 1 known face encodings
+2026-09-12 11:46:20,672 | INFO     | src.database.db_manager | Database schema ready at :memory:
+2026-09-12 11:46:20,672 | INFO     | src.face_module.recognize | Loaded 0 known face encodings
+2026-09-12 11:46:20,672 | WARNING  | src.face_module.recognize | Handled application error in recognize_faces: No faces enrolled yet; skipping recognition.
